@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3, customer1, customer2, bike4, bike5, bike6, bike7, smallredbike,smallblackbike,smallbluebike} from "../assets/images";
+import { bike1, bike2, bigShoe3, customer1, customer2, bike4, bike5, bike6, bike7, smallredbike,smallblackbike,smallbluebike,whatsapp} from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },

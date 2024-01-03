@@ -1,6 +1,7 @@
 import bigShoe3 from './big-shoe3.png'
 import bike1 from './bike1.png'
 import bike2 from './bike2.png'
+import whatsapp from './whatsapp.png'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -25,6 +26,7 @@ export {
     bike1,
     bike2,  
     bigShoe3,
+    whatsapp,
 
     customer1,
     customer2,

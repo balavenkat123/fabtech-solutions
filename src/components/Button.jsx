@@ -2,7 +2,7 @@
 const Button = ({lable,iconURL}) => {
   return (
     <div>
-      <a href="tel://+7993872479">
+      <a href="https://wa.me/917993872479?text= hello fabtech....">
     <button className='btn border-2 border-pink-300 bg-indigo-100 rounded-full mt-5 
     flex justify-center items-center gap-2 px-7 py-4 font-montserrat text-xl text-black font-bold hover:animate-bounce'>
         {lable}
