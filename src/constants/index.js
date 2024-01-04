@@ -55,24 +55,27 @@ export const products = [
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy the safe delivary experince "
+        label: "Structured courses",
+        subtext: "Unlocking Expertise: Your Key to Mobile Mastery"
     },
     {
         imgURL: shieldTick,
-        label: "Low downpayment",
-        subtext: "Low cost emi at very reasonable rate of intrest."
+        label: "Qualified Lectures",
+        subtext: "Master Mobile Repair with Expert Lectures"
+    },
+    {
+        
+        imgURL: support,
+        label: "Mobile Repairs",
+        subtext: "You Break it ...We fix it"
+        
     },
     {
         imgURL: support,
-        label: "custamor Support",
+        label: "customer Support",
         subtext: "very genuine guidence to the customers."
-    },
-    {
-        imgURL: support,
-        label: "Loan availability",
-        subtext: "can be ordered all around hyderabad"
     }
+    
 ];
 
 export const reviews = [
