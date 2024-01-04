@@ -22,6 +22,8 @@ import smallredbike from './smallredbike.png'
 import smallblackbike from './smallblackbike.png'
 import smallbluebike from './smallredbike.png'
 
+import fabtechlogo from './fabtechlogo.png'
+
 export { 
     bike1,
     bike2,  
@@ -44,5 +46,7 @@ export {
     thumbnailBackground,
     smallredbike,
     smallblackbike,
-    smallbluebike
+    smallbluebike,
+
+    fabtechlogo
 }
