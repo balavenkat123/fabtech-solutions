@@ -1,7 +1,6 @@
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { bike1, whatsapp } from '../assets/images'
-
 import { bikes, statistics } from '../constants'
 import BikeCard from '../components/BikeCard'
 // import Typed from 'react-typed';
@@ -13,13 +12,9 @@ const Hero = () => {
   return (
     <section id='home' className='w-full border flex xl:flex-row flex-col min-h-screen
      gap-5 max-container bg-sky-50' >
-      <div>
-        <a href="">
-          <img scr={whatsapp} alt=""></img>
-        </a>
-      </div>
+      
       <div className='relative xl:w-1/3 flex flex-col justify-center items-start w-full padding-x pt-28'>
-        <p className='text-bold text-xl text-sky-800'>md aqeel </p>
+        <p className='font-bold text-xl text-sky-800'>Md Aqeel</p>
         <h1 className='mt-8 font-palanque sm:text-8xl font-bold text-7xl'>FAB 
         {/* <Typed
                     strings={['New Arrival','Brand New']}

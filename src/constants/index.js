@@ -3,8 +3,8 @@ import { bike1, bike2, bigShoe3, customer1, customer2, bike4, bike5, bike6, bike
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
+    { href: "#about-us", label: "Institute" },
+    { href: "#products", label: "Mobile services" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -24,9 +24,9 @@ export const bikes = [
 ];
 
 export const statistics = [
-    { value: '20+', label: 'Brands' },
-    { value: '50+', label: 'Showrooms' },
-    { value: '1k+', label: 'Customers' },
+    { value: '10+', label: 'Years ' },
+    { value: '200+', label: 'Students' },
+    { value: '5k+', label: 'Customers' },
 ];
 
 export const products = [
