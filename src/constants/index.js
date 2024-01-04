@@ -93,7 +93,7 @@ export const reviews = [
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Courses",
         links: [
             { name: "Honda Activa 6G", link: "/" },
             { name: "Honda Dio", link: "/" },
@@ -117,7 +117,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "balavenkat17902@gmail.com", link: "mailto:balavenkat17902@gmail.com" },
-            { name: "7993533327", link: "tel:+7993533327" },
+            { name: "+91 9515159848", link: "tel:+919515159848" },
         ],
     },
 ];
