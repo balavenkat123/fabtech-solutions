@@ -1,13 +1,13 @@
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
-import { bike1, whatsapp } from "../assets/images";
+import { basic1, whatsapp } from "../assets/images";
 import { bikes, statistics } from "../constants";
 import BikeCard from "../components/BikeCard";
 // import Typed from 'react-typed';
 import { useState } from "react";
 
 const Hero = () => {
-  const [bigBikeImg, setbigBikeImg] = useState(bike1);
+  const [bigBikeImg, setbigBikeImg] = useState(basic1);
   return (
     <section
       id="home"
