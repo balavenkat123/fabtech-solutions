@@ -1,9 +1,9 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3, customer1, customer2, bike4, bike5, bike6, bike7, smallredbike,smallblackbike,smallbluebike,whatsapp} from "../assets/images";
+import { bike1, bike2, bigShoe3,  customer2, bike4, bike5, bike6, bike7, smallredbike,smallblackbike,smallbluebike,whatsapp} from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "Institute" },
+    { href: "#institute", label: "Institute" },
     { href: "#products", label: "Mobile services" },
     { href: "#contact-us", label: "Contact Us" },
 ];
@@ -79,12 +79,7 @@ export const services = [
 ];
 
 export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-    },
+    
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
@@ -98,12 +93,12 @@ export const footerLinks = [
     {
         title: "Courses",
         links: [
-            { name: "Honda Activa 6G", link: "/" },
-            { name: "Honda Dio", link: "/" },
-            { name: "Honda Shine 125", link: "/" },
-            { name: "Royal Enfield  ", link: "/" },
-            { name: "Bajaj", link: "/" },
-            { name: "Yamaha Motors", link: "/" },
+            { name: "Mobie Tech Courses", link: "/" },
+            { name: "Course1", link: "/" },
+            { name: "Course2", link: "/" },
+            { name: "Course3 ", link: "/" },
+            { name: "Course4", link: "/" },
+            { name: "Course5", link: "/" },
         ],
     },
     {

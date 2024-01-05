@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
         <Button className="mt-5 " lable="Whatsapp us" iconURL={arrowRight} />
 
-        <div className="flex justify-starts items-start felx-wrap w-full mt-20 gap-16">
+        <div className="flex justify-center items-start felx-wrap w-full mt-20 gap-16">
           {statistics.map((start) => (
             <div key={start.label}>
               <p className="sm:text-4xl text-2xl font-palanquin font-semibold ">
@@ -44,7 +44,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-blue-100 bg-hero bg-cover bg-center">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-20 sm:bg-blue-500 lg:bg-transparent  ">
         <img
           src={bigBikeImg}
           alt="shoe"
@@ -53,7 +53,7 @@ const Hero = () => {
           className="object-contain relative z-10 "
         />
 
-        <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute -bottom-[1%] lg:right-[20%] sm:left-[10%] max-sm:px-6 ">
           {bikes.map((bike) => (
             <div key={bike}>
               <BikeCard

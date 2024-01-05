@@ -4,7 +4,7 @@ import bike2 from './bike2.png'
 import whatsapp from './whatsapp.png'
 import basic1 from './basic1.png'
 
-import customer1 from './customer1.jpeg'
+
 import customer2 from './customer2.svg'
 
 import footerLogo from './footerlogo.jpg'
@@ -31,7 +31,7 @@ export {
     bigShoe3,
     whatsapp,
 
-    customer1,
+   
     customer2,
 
     footerLogo,
