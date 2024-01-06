@@ -1,5 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3,  customer2, bike4, bike5, bike6, bike7, smallredbike,smallblackbike,smallbluebike,whatsapp} from "../assets/images";
+import { bike1, bike2, bigShoe3,  customer2, smallredbike,smallblackbike,smallbluebike,course2,service1,smallpic1} from "../assets/images";
+import { Institute } from "../sections";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -10,15 +11,15 @@ export const navLinks = [
 
 export const bikes = [
     {
-        thumbnail:smallredbike,
+        thumbnail:smallpic1,
         bigShoe: bike1,
       },
     {
-        thumbnail: smallblackbike,
+        thumbnail:smallpic1,
         bigShoe: bike2,
     },
     {
-        thumbnail: smallbluebike,
+        thumbnail:smallpic1,
         bigShoe: bigShoe3,
     },
 ];
@@ -31,22 +32,22 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: bike4,
+        imgURL: service1,
         name: "ACTIVA STD,DLX",
         price: "10,000rs (downpayment)",
     },
     {
-        imgURL: bike5,
+        imgURL: course2,
         name: "Honda CB350RS",
         price: "$210.20",
     },
     {
-        imgURL: bike6,
+        imgURL: course2,
         name: "Shine Disc - OBD2",
         price: "12,000rs (downpayment)",
     },
     {
-        imgURL: bike7,
+        imgURL: course2,
         name: "Honda Dio",
         price: "15,000rs (downpayment)",
     },

@@ -1,13 +1,15 @@
-import {Hero,Follow,Footer,Popularbikes,Services,Specialoffer} from "./sections"
+import {Hero,Follow,Footer,Popularbikes,Services,Specialoffer,Institute} from "./sections"
 import Nav from './components/Nav'
 
 export default function App() {
   return (
-    <main className="relative">
+    <main className="relative bg-blue-50">
     <Nav/>
     <section className="xl:padding-1 wide:padding-r padding-b ">
       <Hero className="bg-blue-50"/> 
+      
     </section>
+    
     <section className="padding bg-blue-50">
       <Popularbikes/>
     </section>
@@ -23,6 +25,9 @@ export default function App() {
     <section className="padding-x padding-t pb-8 bg-black text-blue-200">
       
       <Footer/> 
+    </section>
+    <section>
+      <Institute/>
     </section>
     
     </main>

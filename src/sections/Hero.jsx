@@ -52,7 +52,8 @@ const Hero = () => {
           height={402}
           className="object-contain relative z-10 "
         />
-
+{/* service images 280 by 280 pxls */}
+{/* small pics 200 by 112 */}
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[1%] lg:right-[20%] sm:left-[10%] max-sm:px-6 ">
           {bikes.map((bike) => (
             <div key={bike}>
