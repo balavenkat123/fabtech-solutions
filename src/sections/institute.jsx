@@ -46,9 +46,9 @@ function Institute() {
     <section className="w-full">
       <div
         id="institute"
-        className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group"
+        className="max-w-[1400px] h-[780px] w-full m-auto py-0 px-4 relative group"
       >
-        <h1 className="font-bold "> Page 2</h1>
+        {/* <h1 className="font-bold "> Page 2</h1> */}
         <Nav1 />
 
         <div

@@ -38,9 +38,9 @@ export default function App() {
               <section className="padding-x padding-t pb-8 bg-black text-blue-200">
                 <Footer />
               </section>
-              <section>
+              {/* <section>
                 <Institute />
-              </section>
+              </section> */}
             </main>
           }
         />
