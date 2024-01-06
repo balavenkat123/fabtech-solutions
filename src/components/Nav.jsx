@@ -7,7 +7,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Nav = () => {
  return(
   <nav
-      class="flex items-center justify-between p-8 lg:px-8 bg-sky-200 "
+      class="flex items-center justify-between p-4 lg:px-8 bg-sky-200 "
       aria-label="Global"
     >
       <motion.div

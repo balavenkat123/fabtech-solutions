@@ -14,7 +14,7 @@ const Hero = () => {
       className="w-full border flex xl:flex-row flex-col min-h-screen
      gap-5 max-container bg-sky-50"
     >
-      <div className="relative xl:w-1/3 flex flex-col justify-center items-start w-full padding-x pt-28">
+      <div className="relative xl:w-1/3 flex flex-col justify-center items-start w-full padding-x pt-14">
         <p className="font-bold text-xl text-sky-800">Md Aqeel</p>
         <h1 className="mt-8 font-palanque sm:text-8xl font-bold text-7xl">
           FAB
@@ -54,7 +54,7 @@ const Hero = () => {
         />
 {/* service images 280 by 280 pxls */}
 {/* small pics 200 by 112 */}
-        <div className="flex md: sm:gap-6 gap-4 absolute -bottom-[1%] lg:right-[20%] sm:left-[10%] max-sm:px-6 md:px-6">
+        <div className="flex sm:gap-6 gap-4 absolute px-20 -bottom-[1%] lg:right-[20%] sm:left-[10%] max-sm:px-6 md:px-6">
           {bikes.map((bike) => (
             <div key={bike}>
               <BikeCard
