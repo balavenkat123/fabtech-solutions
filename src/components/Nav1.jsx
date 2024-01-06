@@ -18,13 +18,13 @@ const Nav = () => {
         transition={{ duration: 0.5 }}
         className="Logo cursor-pointer"
       >
-        <Link to="home" smooth={true} duration={500}>
+        <NavLink to="/">
           <img
             className="object-scale-down h-10 w-10 rounded-lgs"
             src={fabtechlogo}
             alt="logo"
           />
-        </Link>
+        </NavLink>
       </motion.div>
 
       <div>
