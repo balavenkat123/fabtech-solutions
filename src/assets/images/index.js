@@ -24,7 +24,7 @@ import FMSlogo from './FMSlogo.jpg'
 import Fablogo from './Fablogo.png'
 import karthick from '../images/karthick.png'
 import bala from '../images/bala.png'
-
+import nithin from '../images/nithin.png'
 export { 
     bike1,
     bike2,  
@@ -52,5 +52,6 @@ export {
     smallpic2,
     smallpic3,
     karthick,
-    bala
+    bala,
+    nithin
 }

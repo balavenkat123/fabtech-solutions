@@ -1,6 +1,6 @@
 import { FaStar, FaStarHalf } from 'react-icons/fa';
 import { ImQuotesLeft } from 'react-icons/im';
-import { bala, karthick } from '../assets/images';
+import { bala, karthick, nithin } from '../assets/images';
 
 const CustomerReviews = () => {
   return (
@@ -17,10 +17,10 @@ const CustomerReviews = () => {
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
           </div>
-          <p className="text-sm mt-2 mb-4">Amazing website! Can order groceries very easily. One of the best websites out there!</p>
+          <p className="text-sm mt-2 mb-4"><i>"Exceptional service! My phone had multiple issues, and they fixed them all flawlessly. Quick, efficient, and friendly. Definitely my go-to for any mobile problem!"</i></p>
           <div className="review-profile flex items-center">
-            <img src={karthick} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
-            <h3 className="text-lg font-semibold ml-2">Optimus Prime</h3>
+            <img src={nithin} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
+            <h3 className="text-lg font-semibold ml-2">Nithin</h3>
           </div>
         </div>
         {/* Review 2 */}
@@ -33,10 +33,10 @@ const CustomerReviews = () => {
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
           </div>
-          <p className="text-sm mt-2 mb-4">Thought to give 5 stars but gave 3.5 because... why not!</p>
+          <p className="text-sm mt-2 mb-4"><i>"Impressive! The team's expertise in mobile repairs is top-notch. They solved my phone's software issue swiftly. The best part? They explained everything in a way that was easy for me to understand. Five stars all the way!"</i></p>
           <div className="review-profile flex items-center">
             <img src={bala} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
-            <h3 className="text-lg font-semibold ml-2">Bumbellbee</h3>
+            <h3 className="text-lg font-semibold ml-2">Bala Venkat</h3>
           </div>
         </div>
         {/* Review 3 */}
@@ -49,10 +49,10 @@ const CustomerReviews = () => {
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
           </div>
-          <p className="text-sm mt-2 mb-4">What do you want? No time to rate this, use my name and rate your own thing!</p>
+          <p className="text-sm mt-2 mb-4"><i>"Brilliant learning environment! The institute's setup for learning mobile repair is excellent. The hands-on experience and individual attention from the instructors made learning easy and enjoyable. Definitely recommend their courses!"</i></p>
           <div className="review-profile flex items-center">
-            <img src="img/c2.jpg" alt="" className="w-12 h-12 rounded-full object-cover object-center" />
-            <h3 className="text-lg font-semibold ml-2">Prowler</h3>
+            <img src={karthick} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
+            <h3 className="text-lg font-semibold ml-2">Karthik</h3>
           </div>
         </div>
       </div>
