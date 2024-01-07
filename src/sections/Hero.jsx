@@ -12,12 +12,12 @@ const Hero = () => {
     <section
       id="home"
       className="w-full border flex xl:flex-row flex-col min-h-screen
-     gap-5 max-container bg-sky-50"
+     gap-5 max-container bg-white"
     >
       <div className="relative xl:w-1/3 flex flex-col justify-center items-start w-full padding-x pt-14">
-        <p className="font-bold text-xl text-sky-800">Md Aqeel</p>
+        <p className="font-bold text-xl text-red-700">Md Abdul Aqeel</p>
         <h1 className="mt-8 font-palanque sm:text-8xl font-bold text-7xl">
-          FAB
+          FAB TECH
           {/* <Typed
                     strings={['New Arrival','Brand New']}
                     typeSpeed={100}
@@ -25,7 +25,7 @@ const Hero = () => {
                     loop
                 /> */}
           <br />
-          <spam className="text-sky-500">TECH </spam>SOLUTIONS
+          <spam className="text-red-700">MOBILE </spam>SOLUTION
         </h1>
         <p className="mt-5 text-xl font-montserrat">
           Master mobile repair with our Android and iOS coaching. Also, rely on
