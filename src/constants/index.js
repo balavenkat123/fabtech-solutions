@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3,  customer2, smallredbike,smallblackbike,smallbluebike,course2,service1,smallpic1} from "../assets/images";
+import { bike1, bike2, bigShoe3,  customer2,smallpic2,smallpic3,course2,service1,smallpic1} from "../assets/images";
 import { Institute } from "../sections";
 
 export const navLinks = [
@@ -15,11 +15,11 @@ export const bikes = [
         bigShoe: bike1,
       },
     {
-        thumbnail:smallpic1,
+        thumbnail:smallpic2,
         bigShoe: bike2,
     },
     {
-        thumbnail:smallpic1,
+        thumbnail:smallpic3,
         bigShoe: bigShoe3,
     },
 ];
@@ -33,23 +33,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: service1,
-        name: "ACTIVA STD,DLX",
-        price: "10,000rs (downpayment)",
+        name: "Android and IOS",
+        price: "",
     },
     {
         imgURL: course2,
-        name: "Honda CB350RS",
-        price: "$210.20",
+        name: "EMMC programming",
+        price: "",
     },
     {
         imgURL: course2,
-        name: "Shine Disc - OBD2",
-        price: "12,000rs (downpayment)",
+        name: "EMMC programmig",
+        price: "",
     },
     {
         imgURL: course2,
-        name: "Honda Dio",
-        price: "15,000rs (downpayment)",
+        name: "EMMC programming",
+        price: "",
     },
 ];
 

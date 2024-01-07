@@ -11,8 +11,8 @@ const BikeCard = ({imgURL,changeBigBike,bigBikeImg}) => {
     //        : 'border-transparent' 
     //     } cursor-pointer max-sm:flex-1
     // `} onClick={handleClick}>
-        <div className="flex justify-center items-center bg-card bg-center bg-cover bg-pink-200 sm:w-40 sm:h-40 rounded-xl max-sm:p-4 border-coral-red">
-          <img src={imgURL.thumbnail} alt="bikes" className="object-contain"/>
+        <div className="flex justify-center items-center bg-card bg-center bg-cover bg-red-700 sm:w-40 sm:h-40 rounded-xl max-sm:p-4 border-black">
+          <img src={imgURL.thumbnail} alt="pics" className="object-contain"/>
         </div>
     // </div>
   )

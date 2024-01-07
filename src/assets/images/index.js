@@ -14,9 +14,8 @@ import offer from './offer.svg'
 import shoe8 from './shoe8.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
-import smallredbike from './smallredbike.png'
-import smallblackbike from './smallblackbike.png'
-import smallbluebike from './smallredbike.png'
+import smallpic2 from './smallpic2.png'
+import smallpic3 from './smallpic3.png'
 
 import fabtechlogo from './fabtechlogo.png'
 import course2 from './course2.png'
@@ -41,14 +40,14 @@ export {
     shoe8,
 
     thumbnailBackground,
-    smallredbike,
-    smallblackbike,
-    smallbluebike,
+   
     basic1,
     service1,
     fabtechlogo,
     course2,
     smallpic1,
     FMSlogo,
-    Fablogo
+    Fablogo,
+    smallpic2,
+    smallpic3
 }
