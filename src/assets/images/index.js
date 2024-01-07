@@ -22,7 +22,8 @@ import course2 from './course2.png'
 import smallpic1 from './smallpic1.png'
 import FMSlogo from './FMSlogo.jpg'
 import Fablogo from './Fablogo.png'
-
+import karthick from '../images/karthick.png'
+import bala from '../images/bala.png'
 
 export { 
     bike1,
@@ -49,5 +50,7 @@ export {
     FMSlogo,
     Fablogo,
     smallpic2,
-    smallpic3
+    smallpic3,
+    karthick,
+    bala
 }

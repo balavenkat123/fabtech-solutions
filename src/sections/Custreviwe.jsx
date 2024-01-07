@@ -1,5 +1,6 @@
 import { FaStar, FaStarHalf } from 'react-icons/fa';
 import { ImQuotesLeft } from 'react-icons/im';
+import { bala, karthick } from '../assets/images';
 
 const CustomerReviews = () => {
   return (
@@ -14,11 +15,11 @@ const CustomerReviews = () => {
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
-            <FaStarHalf className='text-yellow-500' />
+            <FaStar className='text-yellow-500' />
           </div>
           <p className="text-sm mt-2 mb-4">Amazing website! Can order groceries very easily. One of the best websites out there!</p>
           <div className="review-profile flex items-center">
-            <img src="img/c1.jpg" alt="" className="w-12 h-12 rounded-full object-cover object-center" />
+            <img src={karthick} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
             <h3 className="text-lg font-semibold ml-2">Optimus Prime</h3>
           </div>
         </div>
@@ -29,11 +30,12 @@ const CustomerReviews = () => {
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
             <FaStar className='text-yellow-500' />
-            <FaStarHalf className='text-yellow-500' />
+            <FaStar className='text-yellow-500' />
+            <FaStar className='text-yellow-500' />
           </div>
           <p className="text-sm mt-2 mb-4">Thought to give 5 stars but gave 3.5 because... why not!</p>
           <div className="review-profile flex items-center">
-            <img src="img/c3.jpg" alt="" className="w-12 h-12 rounded-full object-cover object-center" />
+            <img src={bala} alt="" className="w-12 h-12 rounded-full object-cover object-center" />
             <h3 className="text-lg font-semibold ml-2">Bumbellbee</h3>
           </div>
         </div>
