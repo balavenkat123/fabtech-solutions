@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import Footer from "./Footer";
+
 import Nav1 from "../components/Nav1";
+import Footer1 from "./Footer1";
 
 function Institute() {
   const slides = [
@@ -48,7 +49,7 @@ function Institute() {
       <Nav1 />
       <div
         id="institute"
-        className="max-w-[1400px] h-[780px] m-auto py-0 px-4 relative group"
+        className="max-w-[1400px] h-[780px] py-0 relative group mx-auto"
       >
         {/* <h1 className="font-bold "> Page 2</h1> */}
         
@@ -75,8 +76,8 @@ function Institute() {
               <RxDotFilled />
             </div>
           ))}
-        </div>
-        <div className="w-full">
+        </div><br></br>
+        <div className="mx-5">
           <h1 className="font-bold text-4xl text-red-800">
             ABOUT FABTECH MOBILE SOLUTIONS{" "}
           </h1>
@@ -84,7 +85,7 @@ function Institute() {
           <p className="">
             <span className="font-bold text-blue-500">
               Welcome to the Fab Tech Mobile Solutions
-            </span>{" "}
+            </span><span className="text-black">
             , where innovation meets education, and excellence is our standard.
             As a leading institution in the field of mobile technology hardware,
             we take pride in offering a comprehensive range of high-quality
@@ -96,8 +97,8 @@ function Institute() {
             <br /> Whether you're a novice looking to start a career in mobile
             technology or a professional seeking to upgrade your skills, our
             institute provides a learning environment that fosters growth and
-            mastery. <br />
-            <span className="font-bold">State-of-the-art facilities</span> are
+            mastery. <br /></span>
+            <span className="font-bold text-red-700">State-of-the-art facilities</span> are
             the backbone of our institute. We understand the importance of
             hands-on experience in mastering mobile hardware, and our
             well-equipped labs are designed to provide just that. From the
@@ -113,17 +114,17 @@ function Institute() {
         <br />
         <br />
         <div>
-          <ul className="justify-center items-center">
-            <h1 className="font-bold text-4xl">List of Courses are:</h1>
+          <ul className="justify-center items-center mx-5">
+            <h1 className="font-bold text-4xl">List of <span className="text-red-700 font-bold">Courses</span> are:</h1>
             <br />
             <li>EMMC Programming</li>
-            <li>EMMC Programming</li>
+            <li>live debugging</li>
             <li>EMMC Programming</li>
             <li>EMMC Programming</li>
             <li>EMMC Programming</li>
           </ul>
         </div><br/>
-        <div className="bg-black"><Footer/></div>
+        <div className="bg-black mx-auto py-20"><Footer1/></div>
         
       </div>
       

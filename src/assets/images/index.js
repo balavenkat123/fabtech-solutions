@@ -4,9 +4,9 @@ import bike2 from './bike2.png'
 import whatsapp from './whatsapp.png'
 import basic1 from './basic1.png'
 import service1 from './service1.png'
-
+import coursepic2 from './coursepic2.png'
 import customer2 from './customer2.svg'
-
+import coursepic3 from './coursepic3.png'
 import footerLogo from './footerlogo.jpg'
 import headerLogo from './headerlogo.png'
 
@@ -38,9 +38,9 @@ export {
 
     offer,
     shoe8,
-
+    coursepic3,
     thumbnailBackground,
-   
+    coursepic2,
     basic1,
     service1,
     fabtechlogo,

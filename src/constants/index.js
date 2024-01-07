@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3,  customer2,smallpic2,smallpic3,course2,service1,smallpic1} from "../assets/images";
+import { bike1, bike2, bigShoe3,  customer2,smallpic2,smallpic3,course2,service1,smallpic1,coursepic2,coursepic3} from "../assets/images";
 import { Institute } from "../sections";
 
 export const navLinks = [
@@ -42,13 +42,13 @@ export const products = [
         price: "",
     },
     {
-        imgURL: course2,
-        name: "EMMC programmig",
+        imgURL: coursepic2,
+        name: "Live Troubleshooting",
         price: "",
     },
     {
-        imgURL: course2,
-        name: "EMMC programming",
+        imgURL: coursepic3,
+        name: "Double Decker ",
         price: "",
     },
 ];
