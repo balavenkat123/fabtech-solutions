@@ -16,7 +16,7 @@ const Footer = () => {
               className="m-0"
             />
           </a>
-          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
+          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm text-white">
             Unlock your potential in mobile repair with our advanced coaching
             classes covering both Android and iOS. Plus, trust us for expert
             mobile repair services!
@@ -42,7 +42,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray"
+                    className="mt-3 font-montserrat text-base leading-normal text-white hover:text-slate-gray"
                     key={link.name}
                   >
                     <a href={link.link}>{link.name}</a>

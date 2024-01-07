@@ -126,3 +126,21 @@ export const socialMedia = [
     { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
 ];
+
+export const data=[
+    {
+        "software":"bala venkat",
+        "hardware":"md aqeel"
+
+    },
+    {
+        "software":"Nithin",
+        "hardware":"md aqeel"
+
+    },
+    {
+        "software":"karthik",
+        "hardware":"md aqeel"
+
+    },
+]

@@ -12,6 +12,7 @@ const Services = () => {
           <ServiceCard key={service.label} {...service} />
         ))}
       </section>
+      
     </div>
   );
 };

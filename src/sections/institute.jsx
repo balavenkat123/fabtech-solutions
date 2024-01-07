@@ -43,13 +43,15 @@ function Institute() {
   };
 
   return (
+    
     <section className="w-full">
+      <Nav1 />
       <div
         id="institute"
-        className="max-w-[1400px] h-[780px] w-full m-auto py-0 px-4 relative group"
+        className="max-w-[1400px] h-[780px] m-auto py-0 px-4 relative group"
       >
         {/* <h1 className="font-bold "> Page 2</h1> */}
-        <Nav1 />
+        
         <br />
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -120,10 +122,13 @@ function Institute() {
             <li>EMMC Programming</li>
             <li>EMMC Programming</li>
           </ul>
-        </div>
-        <Footer />
+        </div><br/>
+        <div className="bg-black"><Footer/></div>
+        
       </div>
+      
     </section>
+    
   );
 }
 
