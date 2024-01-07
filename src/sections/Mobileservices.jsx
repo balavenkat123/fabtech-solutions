@@ -2,6 +2,7 @@ import React from "react";
 import Nav1 from "../components/Nav1";
 import ProductCard from "../components/ProductCard";
 import { products } from "../constants";
+import Footer1 from "./Footer1";
 
 const Mobileservices = () => {
   const services = [
@@ -97,6 +98,9 @@ const Mobileservices = () => {
       <br />
       <div className="bg-red-600 mx-auto box-border box-content  p-4 flex justify-center">
         hello
+      </div>
+      <div className="bg-black text-white">
+        <Footer1 />
       </div>
     </div>
   );
