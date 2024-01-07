@@ -1,5 +1,5 @@
 import { hamburger } from "../assets/icons";
-import { headerLogo, fabtechlogo, FMSlogo } from "../assets/images";
+import { headerLogo, fabtechlogo, Fablogo } from "../assets/images";
 import { navLinks } from "../constants";
 import { motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -21,7 +21,7 @@ const Nav = () => {
         <Link to="home" smooth={true} duration={500}>
           <img
             className="object-scale-down h-12 w-12 rounded-lgs"
-            src={FMSlogo}
+            src={Fablogo}
             alt="logo"
           />
         </Link>
