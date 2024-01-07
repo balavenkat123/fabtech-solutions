@@ -38,23 +38,19 @@ export default function App() {
     <Follow/> */}
               </section>
               <section>
-                <CustomerReviews/>
-              </section><br></br><br></br>
+                <CustomerReviews />
+              </section>
+              <br></br>
+              <br></br>
               <section className="padding-x padding-t pb-8 bg-black text-blue-200">
                 <Footer />
-              </section>
-              {/* <section>
-                <Institute />
-              </section> */}
-              <section>
-                <Mobileservices/>
               </section>
             </main>
           }
         />
 
         <Route path="institute" element={<Institute />} />
-        <Route path="services" element={<Services />} />
+        <Route path="mobileservices" element={<Mobileservices />} />
       </Routes>
     </BrowserRouter>
   );

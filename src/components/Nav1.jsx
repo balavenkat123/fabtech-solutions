@@ -47,7 +47,7 @@ const Nav = () => {
             whileHover={{ scale: 0.9 }}
             className="cursor-pointer text-red-600 md:text-xl font-bold"
           >
-            <NavLink to="/services">Mobile services</NavLink>
+            <NavLink to="/mobileservices">Mobile services</NavLink>
           </motion.li>
           <motion.li
             whileHover={{ scale: 0.9 }}
