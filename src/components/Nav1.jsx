@@ -8,7 +8,7 @@ import { NavLink, BrowserRouter } from "react-router-dom";
 const Nav = () => {
   return (
     <nav
-      class="flex items-center justify-between p-4 lg:px-8 bg-blue-100 "
+      class="flex items-center justify-between p-4 lg:px-8 bg-red-100 "
       aria-label="Global"
     >
       <motion.div
@@ -39,19 +39,19 @@ const Nav = () => {
           </motion.li> */}
           <motion.li
             whileHover={{ scale: 0.9 }}
-            className="cursor-pointer text-red-700"
+            className="cursor-pointer text-red-600 md:text-xl font-bold"
           >
             <NavLink to="/institute">Institute</NavLink>
           </motion.li>
           <motion.li
             whileHover={{ scale: 0.9 }}
-            className="cursor-pointer text-red-700"
+            className="cursor-pointer text-red-600 md:text-xl font-bold"
           >
             <NavLink to="/services">Mobile services</NavLink>
           </motion.li>
           <motion.li
             whileHover={{ scale: 0.9 }}
-            className="cursor-pointer text-red-700"
+            className="cursor-pointer text-red-600 md:text-xl font-bold"
           >
             <Link to="contact-us" smooth={true} duration={500}>
               Contact us
