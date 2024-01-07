@@ -1,5 +1,5 @@
 import { hamburger } from "../assets/icons";
-import { headerLogo, fabtechlogo } from "../assets/images";
+import { headerLogo, fabtechlogo, Fablogo } from "../assets/images";
 import { navLinks } from "../constants";
 import { motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -8,7 +8,7 @@ import { NavLink, BrowserRouter } from "react-router-dom";
 const Nav = () => {
   return (
     <nav
-      class="flex items-center justify-between p-4 lg:px-8 bg-sky-200 "
+      class="flex items-center justify-between p-4 lg:px-8 bg-white "
       aria-label="Global"
     >
       <motion.div
@@ -20,8 +20,8 @@ const Nav = () => {
       >
         <Link to="home" smooth={true} duration={500}>
           <img
-            className="object-scale-down h-10 w-10 rounded-lgs"
-            src={fabtechlogo}
+            className="object-scale-down h-12 w-12 rounded-lgs"
+            src={Fablogo}
             alt="logo"
           />
         </Link>
@@ -37,13 +37,22 @@ const Nav = () => {
               Home
             </Link>
           </motion.li> */}
-          <motion.li whileHover={{ scale: 0.9 }} className="cursor-pointer">
+          <motion.li
+            whileHover={{ scale: 0.9 }}
+            className="cursor-pointer text-red-700"
+          >
             <NavLink to="/institute">Institute</NavLink>
           </motion.li>
-          <motion.li whileHover={{ scale: 0.9 }} className="cursor-pointer">
+          <motion.li
+            whileHover={{ scale: 0.9 }}
+            className="cursor-pointer text-red-700"
+          >
             <NavLink to="/services">Mobile services</NavLink>
           </motion.li>
-          <motion.li whileHover={{ scale: 0.9 }} className="cursor-pointer">
+          <motion.li
+            whileHover={{ scale: 0.9 }}
+            className="cursor-pointer text-red-700"
+          >
             <Link to="contact-us" smooth={true} duration={500}>
               Contact us
             </Link>

@@ -21,6 +21,9 @@ import smallbluebike from './smallredbike.png'
 import fabtechlogo from './fabtechlogo.png'
 import course2 from './course2.png'
 import smallpic1 from './smallpic1.png'
+import FMSlogo from './FMSlogo.jpg'
+import Fablogo from './Fablogo.png'
+
 
 export { 
     bike1,
@@ -45,5 +48,7 @@ export {
     service1,
     fabtechlogo,
     course2,
-    smallpic1
+    smallpic1,
+    FMSlogo,
+    Fablogo
 }

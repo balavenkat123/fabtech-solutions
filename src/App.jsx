@@ -17,16 +17,16 @@ export default function App() {
         <Route
           index
           element={
-            <main className="relative bg-blue-50">
+            <main className="relative bg-white">
               <Nav />
               <section className="xl:padding-1 wide:padding-r padding-b ">
-                <Hero className="bg-blue-50" />
+                <Hero className="bg-white" />
               </section>
 
-              <section className="padding bg-blue-50">
+              <section className="padding bg-white">
                 <Popularbikes />
               </section>
-              <section className="padding bg-blue-50 ">
+              <section className="padding bg-white ">
                 <Services />
                 {/* </section>
   <section className="padding">
