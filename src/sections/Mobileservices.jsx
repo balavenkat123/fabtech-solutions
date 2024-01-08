@@ -2,6 +2,7 @@ import React from "react";
 import Nav1 from "../components/Nav1";
 import ProductCard from "../components/ProductCard";
 import { products } from "../constants";
+import Ourclients from "./Ourclients";
 
 const Mobileservices = () => {
   const services = [
@@ -95,6 +96,7 @@ const Mobileservices = () => {
       </h2>
       <br />
       <br />
+      <Ourclients/>
       <div className="bg-red-600 mx-auto box-border box-content  p-4 flex justify-center">
         hello
       </div>
