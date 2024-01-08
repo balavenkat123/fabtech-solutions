@@ -9,7 +9,7 @@ import customer2 from './customer2.svg'
 import coursepic3 from './coursepic3.png'
 import footerLogo from './footerlogo.jpg'
 import headerLogo from './headerlogo.png'
-
+import course02 from './courses02.png'
 import offer from './offer.svg'
 import shoe8 from './shoe8.svg'
 
@@ -78,5 +78,6 @@ export {
     company9,
     company10,
     company11,
-    company12
+    company12,
+    course02
 }

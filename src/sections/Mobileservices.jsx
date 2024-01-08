@@ -1,9 +1,10 @@
 import React from "react";
 import Nav1 from "../components/Nav1";
 import ProductCard from "../components/ProductCard";
-import { products } from "../constants";
+import { products, repairs } from "../constants";
 import Footer1 from "./Footer1";
 import Ourclients from "./Ourclients";
+
 
 const Mobileservices = () => {
   const services = [
@@ -77,14 +78,14 @@ const Mobileservices = () => {
           className="max-container max-sm:mt-12 flex flex-col justify-start gap-5 mx-5"
         >
           <h1 className="sm:text-6xl text-4xl font-bold">
-            <span className="text-red-700">Popular</span> Courses
+            <span className="text-red-700">Our</span>Repairs
           </h1>
           <p className="lg:max-w-lg mt-2 font-montserrat">
             here are some Tech courses which can be provided
           </p>
         </div>
         <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-14 sm:items-center justify-center">
-          {products.map((product) => (
+          {repairs.map((product) => (
             <ProductCard key={product.name} {...product} />
           ))}
         </div>
