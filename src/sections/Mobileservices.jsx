@@ -96,7 +96,7 @@ const Mobileservices = () => {
       </h2>
       <br />
       <br />
-      <div className="bg-red-600 mx-auto box-border box-content  p-4 flex justify-center">
+      <div className="bg-red-600 mx-auto box-border  p-4 flex justify-center">
         hello
       </div>
       <div className="bg-black text-white">

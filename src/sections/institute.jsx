@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-
+import { List, ListItem, Card } from "@material-tailwind/react";
 import Nav1 from "../components/Nav1";
 import Footer1 from "./Footer1";
+import ServiceCard from "../components/ServiceCard";
+import { courses } from "../constants";
 
 function Institute() {
   const slides = [
@@ -112,18 +114,21 @@ function Institute() {
           </p>
         </div>
         <br />
+
         <br />
+        
         <div>
-          <ul className="justify-center items-center mx-5">
-            <h1 className="font-bold text-4xl">List of <span className="text-red-700 font-bold">Courses</span> are:</h1>
-            <br />
-            <li>EMMC Programming</li>
-            <li>live debugging</li>
-            <li>EMMC Programming</li>
-            <li>EMMC Programming</li>
-            <li>EMMC Programming</li>
-          </ul>
-        </div><br/>
+          <h1 className="sm:text-6xl text-4xl font-bold">
+          <span className="text-red-700 px-5">Courses</span>We Provide
+          </h1>
+          <section className="max-container flex justify-center flex-wrap gap-0 ">
+            {courses.map((service) => (
+              <ServiceCard key={service.label} {...service} />
+           ))}
+          </section>
+      
+        </div>
+        <br/>
         <div className="bg-black mx-auto py-20"><Footer1/></div>
         
       </div>

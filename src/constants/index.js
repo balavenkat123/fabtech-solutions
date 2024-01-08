@@ -144,3 +144,28 @@ export const data=[
 
     },
 ]
+export const courses = [
+    {
+        imgURL: truckFast,
+        label: "EMMC programming",
+        subtext: "Unlocking Expertise: Your Key to Mobile Mastery"
+    },
+    {
+        imgURL: shieldTick,
+        label: "EMMC programming",
+        subtext: "Master Mobile Repair with Expert Lectures"
+    },
+    {
+        
+        imgURL: shieldTick,
+        label: "EMMC programming",
+        subtext: "You Break it ...We fix it"
+        
+    },
+    {
+        imgURL: support,
+        label: "EMMC programming",
+        subtext: "very genuine guidence to the customers."
+    }
+    
+];
