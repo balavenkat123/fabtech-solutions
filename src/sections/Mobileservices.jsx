@@ -3,6 +3,7 @@ import Nav1 from "../components/Nav1";
 import ProductCard from "../components/ProductCard";
 import { products } from "../constants";
 import Footer1 from "./Footer1";
+import Ourclients from "./Ourclients";
 
 const Mobileservices = () => {
   const services = [
@@ -99,6 +100,7 @@ const Mobileservices = () => {
       <div className="bg-red-600 mx-auto box-border box-content  p-4 flex justify-center">
         hello
       </div>
+      <Ourclients/>
       <div className="bg-black text-white">
         <Footer1 />
       </div>
