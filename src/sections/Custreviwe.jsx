@@ -1,6 +1,7 @@
 import { FaStar, FaStarHalf } from 'react-icons/fa';
 import { ImQuotesLeft } from 'react-icons/im';
 import { bala, karthick, nithin } from '../assets/images';
+import { motion } from 'framer-motion';
 
 const CustomerReviews = () => {
   return (
@@ -56,6 +57,13 @@ const CustomerReviews = () => {
           </div>
         </div>
       </div>
+      <br />
+      <motion.div whileHover={{ scale: 0.9 }}className='flex justify-center'>
+      <a target="_blank" href="https://www.google.com/maps/place/FABTECH+MOBILES+SOLUTIONS/@17.386305,78.482483,16z/data=!4m8!3m7!1s0x3bcb99389849e3b5:0xccc7981ec4f1e678!8m2!3d17.3863047!4d78.4824833!9m1!1b1!16s%2Fg%2F11rq88gtgp?hl=en&entry=ttu">
+      <button className='bg-red-700 text-white font-bold rounded-md px-3 py-2'>Write Your Review Here</button>
+      </a>
+    
+    </motion.div>
     </section>
   );
 };
