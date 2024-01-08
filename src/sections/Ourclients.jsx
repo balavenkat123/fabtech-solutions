@@ -14,7 +14,7 @@ const Ourclients = () => {
           <Slider
             width="250px" // Adjust this to fit your needs
             duration={40}
-            pauseOnHover={true}
+            // pauseOnHover={true}
             blurBorders={false}
             blurBorderColor={'#fff'}
           >

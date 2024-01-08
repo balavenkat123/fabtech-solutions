@@ -128,10 +128,19 @@ function Institute() {
           </section>
       
         </div>
+        <div className="flex justify-center items-center"><h1>To Download List Of Courses</h1></div>
+        <div className="flex justify-center items-center"><h1 className="text-red-700">Click The Button Below</h1></div><br />
+            <div className="flex justify-center items-center"><br />
+          <a target="_blank" href="./courses.pdf" download={true}>
+          <button className='bg-red-700 text-white font-bold rounded-md px-3 py-2 hover:bg-red-400'>Courses</button>
+          </a>
+          </div>
+        
         <br/>
         <div className="bg-black mx-auto py-20"><Footer1/></div>
         
       </div>
+
       
     </section>
     
