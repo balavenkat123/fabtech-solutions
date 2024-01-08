@@ -1,5 +1,5 @@
 import { copyrightSign } from "../assets/icons";
-import { Fablogo, fabtechlogo } from "../assets/images";
+import { Fablogo, fabtechlogo, youtube } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -52,6 +52,11 @@ const Footer = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="object-scale-down h-32 w-32 flex justify-center">
+        <a href="https://www.youtube.com/@fabtechmobilesolutionshyde2050" target="_blank">
+          <img src={youtube} alt="" />
+        </a>
       </div>
       <br />
       <br />

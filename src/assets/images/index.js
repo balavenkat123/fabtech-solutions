@@ -37,6 +37,7 @@ import company9 from './company9.png'
 import company10 from './company10.png'
 import company11 from './company11.png'
 import company12 from './company12.png'
+import youtube from './youtube-logo.png'
 
 export { 
     bike1,
@@ -78,5 +79,6 @@ export {
     company9,
     company10,
     company11,
-    company12
+    company12,
+    youtube
 }
