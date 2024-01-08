@@ -41,7 +41,7 @@ const Mobileservices = () => {
       <Nav1 />
       <br />
       <h2 className="sm:text-6xl text-4xl font-bold mx-5">
-        <span className="text-red-700">Mobile</span> services
+        <span className="text-red-700">Mobile </span> services
       </h2>
       <br />
       <br />
@@ -78,9 +78,9 @@ const Mobileservices = () => {
           className="max-container max-sm:mt-12 flex flex-col justify-start gap-5 mx-5"
         >
           <h1 className="sm:text-6xl text-4xl font-bold">
-            <span className="text-red-700">Our</span>Repairs
+            <span className="text-red-700">Our </span>Repairs
           </h1>
-          <p className="lg:max-w-lg mt-2 font-montserrat">
+          <p className="lg:max-w-lg mt-2 font-montserrat font-bold">
             here are some Tech courses which can be provided
           </p>
         </div>
@@ -98,9 +98,7 @@ const Mobileservices = () => {
       </h2>
       <br />
       <br />
-      <div className="bg-red-600 mx-auto box-border  p-4 flex justify-center">
-        hello
-      </div>
+      
       <Ourclients/>
       <div className="bg-black text-white">
         <Footer1 />

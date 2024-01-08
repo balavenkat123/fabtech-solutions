@@ -7,27 +7,26 @@ const Ourclients = () => {
   return (
     <section className="bg-white py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-palanque sm:text-4xl font-bold text-4xl text-center mb-8 ">
-          Our <span className='text-red-700'>Clients </span>
-        </h2>
+        
       </div>
-      <div className="flex justify-center">
-        <Slider
-          width="250px"
-          duration={40}
-          pauseOnHover={true}
-          blurBorders={false}
-          blurBorderColor={'#fff'}
-        >
-          <Slider.Slide>
-            <img src={company1} alt="company-1" className="w-36" />
-          </Slider.Slide>
-          <Slider.Slide>
-            <img src={company2} alt="company-2" className="w-36" />
-          </Slider.Slide>
-          <Slider.Slide>
-            <img src={company3} alt="company-2" className="w-36" />
-          </Slider.Slide>
+      <div className="flex justify-center overflow-hidden">
+        <div style={{ maxWidth: '100%', overflowX: 'hidden' }}>
+          <Slider
+            width="250px" // Adjust this to fit your needs
+            duration={40}
+            pauseOnHover={true}
+            blurBorders={false}
+            blurBorderColor={'#fff'}
+          >
+            <Slider.Slide>
+              <img src={company1} alt="company-1" className="w-36" />
+            </Slider.Slide>
+            <Slider.Slide>
+              <img src={company2} alt="company-2" className="w-36" />
+            </Slider.Slide>
+            <Slider.Slide>
+              <img src={company3} alt="company-3" className="w-36" />
+            </Slider.Slide>
           <Slider.Slide>
             <img src={company4} alt="company-2" className="w-36" />
           </Slider.Slide>
@@ -55,11 +54,12 @@ const Ourclients = () => {
           <Slider.Slide>
             <img src={company12} alt="company-2" className="w-36" />
           </Slider.Slide>
-
-          
-         </Slider>
-       </div>
-     </section>
+            {/* Add rest of your Slider.Slide components with logos */}
+          </Slider>
+        </div>
+        <br />
+      </div>
+    </section>
    );
 };
                      
