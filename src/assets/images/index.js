@@ -38,6 +38,7 @@ import company10 from './company10.png'
 import company11 from './company11.png'
 import company12 from './company12.png'
 import youtube from './youtube-logo.png'
+import ceo from './ceo.jpeg'
 export { 
     bike1,
     bike2,  
@@ -80,5 +81,5 @@ export {
     company11,
     company12,
     course02,
-    youtube
+    youtube,ceo
 }
