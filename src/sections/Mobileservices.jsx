@@ -23,7 +23,7 @@ const Mobileservices = () => {
      
       
   
-      <div>
+      <div><br /><br />
         <div
           id="products"
           className="max-container max-sm:mt-12 flex flex-col justify-start gap-5 mx-5"
@@ -35,7 +35,7 @@ const Mobileservices = () => {
             Here are some Mobile services which can be provided
           </p>
         </div>
-        <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-14 sm:items-center justify-center">
+        <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-14 sm:items-center justify-center text-red-700">
           {repairs.map((product) => (
             <ProductCard key={product.name} {...product} />
           ))}

@@ -9,7 +9,7 @@ const Aboutservices = () => {
         
         {/* New section */}
         <section className="mt-16 text-center">
-          <h2 className="text-4xl font-bold">We <span>Provide</span> Quality</h2>
+          <h2 className="text-4xl font-bold">We <span>Provide </span><span className="text-red-700">Quality</span> </h2>
           <p className="max-w-3xl mx-auto mt-4 mb-6 px-4">
             At our company, we take pride in offering the best mobile repair services in the market. Our commitment lies in providing quick, quality, and professional services that prioritize customer satisfaction above all. We are the most trustworthy name you can rely on for your mobile needs.
           </p>

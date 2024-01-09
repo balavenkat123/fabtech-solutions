@@ -8,7 +8,7 @@ import { NavLink, BrowserRouter } from "react-router-dom";
 const Nav = () => {
   return (
     <nav
-      class="flex items-center justify-between p-4 lg:px-8 bg-red-100 shadow-lg "
+      class=" flex items-center justify-between p-4 lg:px-8 bg-red-100 shadow-lg "
       aria-label="Global"
     >
       <motion.div

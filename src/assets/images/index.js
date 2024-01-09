@@ -12,11 +12,11 @@ import headerLogo from './headerlogo.png'
 import course02 from './courses02.png'
 import offer from './offer.svg'
 import shoe8 from './shoe8.svg'
-
+import repair01 from './repair01.png'
 import thumbnailBackground from './thumbnail-background.svg'
 import smallpic2 from './smallpic2.png'
 import smallpic3 from './smallpic3.png'
-
+import repair02 from './repair02.png'
 import fabtechlogo from './fabtechlogo.png'
 import course2 from './course2.png'
 import smallpic1 from './smallpic1.png'
@@ -39,18 +39,23 @@ import company11 from './company11.png'
 import company12 from './company12.png'
 import youtube from './youtube-logo.png'
 import ceo from './ceo.jpeg'
+import repair03 from './repair03.png'
+import course01 from './course01.png'
+import repair04 from './repair04.png'
+import course03 from './course03.png'
+import course04 from './course04.png'
 export { 
     bike1,
     bike2,  
     bigShoe3,
     whatsapp,
-
-   
+    repair01,
+    repair02,
     customer2,
-
+    course01,
     footerLogo,
     headerLogo,
-
+    repair04,
     offer,
     shoe8,
     coursepic3,
@@ -81,5 +86,8 @@ export {
     company11,
     company12,
     course02,
-    youtube,ceo
+    youtube,ceo,
+    repair03,
+    course03,
+    course04
 }

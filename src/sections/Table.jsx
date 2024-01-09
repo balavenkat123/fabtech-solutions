@@ -30,8 +30,8 @@ const TableM = () => {
     //   ];
     return (
         
-      <div className="bg-white flex justify-center items-center h-screen">
-        <table className="shadow-2xl font-[Poppins] border-2 border-red-200 w-6/12 overflow-hidden">
+      <div className="bg-white flex justify-center items-center h-screen ">
+        <table className="shadow-2xl font-[Poppins] border-2 border-red-200 overflow-hidden w-full sm:w-6/12 ">
           <thead className="text-white">
             <tr>
               <th className="py-3 bg-red-800">Id</th>
@@ -132,6 +132,7 @@ const TableM = () => {
             </tr>
           </tbody>
         </table>
+        
       </div>
     );
   };

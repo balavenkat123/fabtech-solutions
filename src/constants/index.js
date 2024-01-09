@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bike1, bike2, bigShoe3,  customer2,smallpic2,smallpic3,course2,service1,smallpic1, course02,coursepic2,coursepic3} from "../assets/images";
+import { bike1,repair01, bike2, bigShoe3,repair02,course03,course04,repair03,course01,repair04,  customer2,smallpic2,smallpic3,course2,service1,smallpic1, course02,coursepic2,coursepic3} from "../assets/images";
 import { Institute } from "../sections";
 
 export const navLinks = [
@@ -32,23 +32,23 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: service1,
+        imgURL: course01,
         name: "Android and IOS",
         price: "",
     },
     {
         imgURL: course02,
-        name: "EMMC programming",
-        price: "",
-    },
-    {
-        imgURL: coursepic2,
         name: "Live Troubleshooting",
         price: "",
     },
     {
-        imgURL: coursepic3,
-        name: "Double Decker ",
+        imgURL: course03,
+        name: "EMMC Programming",
+        price: "",
+    },
+    {
+        imgURL:course04,
+        name: "Data Recovery techniques",
         price: "",
     },
 ];
@@ -171,23 +171,23 @@ export const courses = [
 ];
 export const repairs = [
     {
-        imgURL: service1,
-        name: "Android and IOS",
+        imgURL: repair04,
+        name: "  IPHONE Back Glass Removal LASER",
         price: "",
     },
     {
-        imgURL: course2,
-        name: "EMMC programming",
+        imgURL: repair03,
+        name: "Display repairs",
         price: "",
     },
     {
-        imgURL: coursepic2,
-        name: "Live Troubleshooting",
+        imgURL: repair01,
+        name: "Double Decker CPU Repair",
         price: "",
     },
     {
-        imgURL: coursepic3,
-        name: "Double Decker ",
+        imgURL: repair02,
+        name: "Face ID & Finger Print Repair ",
         price: "",
     },
 ];
