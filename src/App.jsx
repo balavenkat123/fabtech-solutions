@@ -11,6 +11,7 @@ import Nav from "./components/Nav";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import CustomerReviews from "./sections/Custreviwe";
 import Mobileservices from "./sections/Mobileservices";
+import Aboutservices from "./sections/about";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
   <section className="padding-x sm:py-32 py-16 w-full">
     <Follow/> */}
               </section>
+              
               <section>
                 <CustomerReviews />
               </section>

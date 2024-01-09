@@ -5,6 +5,7 @@ import { products, repairs } from "../constants";
 import Footer1 from "./Footer1";
 import Ourclients from "./Ourclients";
 import TableM from "./Table";
+import Aboutservices from "./about";
 
 
 const Mobileservices = () => {
@@ -16,14 +17,12 @@ const Mobileservices = () => {
       <h2 className="sm:text-6xl text-4xl font-bold mx-5">
         <span className="text-red-700">Mobile </span> services
       </h2>
-      <br />
-      <br />
-      <br />
-      <TableM/>
       
-      <br />
-      <br />
-      <br />
+      <div className="py-36">
+       <TableM/></div>
+     
+      
+  
       <div>
         <div
           id="products"
@@ -45,7 +44,10 @@ const Mobileservices = () => {
       </div>
       <br />
       <br />
-      <h2 className="flex justify-center sm:text-6xl text-4xl font-bold">
+      <div className="py-8"> 
+      <Aboutservices/></div>
+    
+      <h2 className="flex justify-center sm:text-6xl text-4xl font-bold py-8">
         <span className="text-red-700">Brands </span>&nbsp; We Support
       </h2>
       <br />
