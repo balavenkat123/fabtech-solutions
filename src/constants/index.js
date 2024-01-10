@@ -172,7 +172,7 @@ export const courses = [
 export const repairs = [
     {
         imgURL: repair04,
-        name: "  IPHONE Back Glass Removal LASER",
+        name: "Back Glass Removal LASER",
         price: "",
     },
     {

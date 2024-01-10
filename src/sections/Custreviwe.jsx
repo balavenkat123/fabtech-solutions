@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const CustomerReviews = () => {
   return (
     <section className="customers max-w-6xl mx-auto py-[-4] px-6 ">
-      <h2 className="font-palanque sm:text-4xl font-bold text-4xl text-center mb-8 "> <span>Why</span> <span className='text-red-700 underline'>Customers </span><span className='text-black'>Love Us</span> </h2>
+      <h2 className="font-palanque sm:text-4xl font-bold text-2xl text-center mb-8 "> <span>Why</span> <span className='text-red-700 underline'>Customers </span><span className='text-black'>Love Us</span> </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Review 1 */}
         <div className="box bg-white p-4 rounded-lg shadow-md border-b-4 border-red-500 transition duration-300 hover:shadow-xl hover:-translate-y-1">
