@@ -45,6 +45,10 @@ import course01 from './course01.png'
 import repair04 from './repair04.png'
 import course03 from './course03.png'
 import course04 from './course04.png'
+import c1 from './c1.jpeg'
+import c2 from './c2.jpeg'
+import c3 from './c3.jpeg'
+import c4 from './c4.jpeg'
 
 export { 
     bike1,
@@ -91,5 +95,9 @@ export {
     youtube,ooo,ceo,
     repair03,
     course03,
-    course04
+    course04,
+    c1,
+    c2,
+    c3,
+    c4
 }
