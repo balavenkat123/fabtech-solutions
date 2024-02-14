@@ -6,7 +6,6 @@ import Nav1 from "../components/Nav1";
 import Footer1 from "./Footer1";
 import ServiceCard from "../components/ServiceCard";
 import { courses } from "../constants";
-import { ceo } from "../assets/images";
 
 function Institute() {
   const slides = [
@@ -16,16 +15,9 @@ function Institute() {
     {
       url: "https://i.ytimg.com/vi/L3RJP2uEkw0/maxresdefault.jpg",
     },
-    {
-      url: "https://yt3.googleusercontent.com/Wx4s3RHCcRBHEV35AVbc6XSF4b5Zs9Ak1l9uM-Vi3VoxZ_Vv4hRRSU6Qb-TLn9vkCOsXNJcacQ=s900-c-k-c0x00ffffff-no-rj",
-    },
-
-    {
-      url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
-    },
+    // {
+    //   url: "https://yt3.googleusercontent.com/Wx4s3RHCcRBHEV35AVbc6XSF4b5Zs9Ak1l9uM-Vi3VoxZ_Vv4hRRSU6Qb-TLn9vkCOsXNJcacQ=s900-c-k-c0x00ffffff-no-rj",
+    // },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,17 +44,29 @@ function Institute() {
       <Nav1 />
       <div
         id="institute"
-        className="max-w-[1400px] h-[780px] py-0 relative group mx-auto"
+        className="max-w-[1400px] h-[780px] py-0 relative group mx-auto "
       >
         {/* <h1 className="font-bold "> Page 2</h1> */}
         
         <br />
         <div
-          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-          className="w-full h-full  bg-center bg-cover duration-500"
-        ></div>
+          // style={{ backgroundImage: url(${slides[currentIndex].url}) }}
+          className="w-full  bg-center bg-cover duration-500"
+        >
+        <img 
+    src={slides[currentIndex].url} 
+    alt="Slide" 
+    style={{ 
+        display: 'block', 
+        marginLeft: 'auto', 
+        marginRight: 'auto',
+        verticalAlign: 'middle' // Add this line
+    }} 
+/>
+
+        </div>
         {/* Left Arrow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer ">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
@@ -114,27 +118,9 @@ function Institute() {
             excel.
           </p>
         </div>
-        
+        <br />
 
-        
-        <section className="max-container">
-        {/* Existing content */}
-        {/* ... */}
-        
-        {/* New section */}
-        <section className="mt-16 text-center">
-          <h2 className="text-4xl font-bold"><span className="text-red-700">Quality</span> Content</h2>
-          <p className="max-w-3xl mx-auto mt-4 mb-6 px-4">
-            At our company, we take pride in offering the best Quality courses in market in the market. Our commitment lies in providing quick, quality, and professional Teaching that Prioritize Student satisfaction above all. We are the most trustworthy name you can rely on for your learning.
-          </p>
-          <div className="mx-auto">
-            <img src={ceo} alt="CEO Image" className="w-40 h-40 rounded-full object-cover mx-auto" />
-            <p className="text-lg font-bold mt-2 text-red-700">Md Abdul Aqeel</p>
-            <p className="text-sm">Founder of FABTECH MOBILE SOLUTIONS</p>
-          </div>
-        </section>
-      </section>
-        <br /><br />
+        <br />
         
         <div>
           <h1 className="sm:text-6xl text-4xl font-bold">

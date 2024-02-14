@@ -38,12 +38,14 @@ import company10 from './company10.png'
 import company11 from './company11.png'
 import company12 from './company12.png'
 import youtube from './youtube-logo.png'
+import ooo from './ooo.jpeg'
 import ceo from './ceo.jpeg'
 import repair03 from './repair03.png'
 import course01 from './course01.png'
 import repair04 from './repair04.png'
 import course03 from './course03.png'
 import course04 from './course04.png'
+
 export { 
     bike1,
     bike2,  
@@ -86,7 +88,7 @@ export {
     company11,
     company12,
     course02,
-    youtube,ceo,
+    youtube,ooo,ceo,
     repair03,
     course03,
     course04
