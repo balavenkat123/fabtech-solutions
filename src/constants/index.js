@@ -152,20 +152,20 @@ export const courses = [
     },
     {
         imgURL: shieldTick,
-        label: "EMMC programming",
-        subtext: "Master Mobile Repair with Expert Lectures"
+        label: "Face ID & Fingerprint Repair Workshop",
+        subtext: "Unlock the secrets of biometric repair with our Face ID & Fingerprint Repair Workshop."
     },
     {
         
         imgURL: shieldTick,
-        label: "EMMC programming",
-        subtext: "You Break it ...We fix it"
+        label: "Mobile Lamination and Waterproofing Workshop",
+        subtext: "Protect and preserve with our Mobile Lamination and Waterproofing Workshop"
         
     },
     {
         imgURL: support,
-        label: "EMMC programming",
-        subtext: "very genuine guidence to the customers."
+        label: "Screen Savior: Broken Glass Replacement",
+        subtext: "Become a screen savior with our comprehensive glass replacement course."
     }
     
 ];
