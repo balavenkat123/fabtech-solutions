@@ -94,22 +94,20 @@ export const footerLinks = [
     {
         title: "Courses",
         links: [
-            { name: "Mobie Tech Courses", link: "/" },
-            { name: "Course1", link: "/" },
-            { name: "Course2", link: "/" },
-            { name: "Course3 ", link: "/" },
-            { name: "Course4", link: "/" },
-            { name: "Course5", link: "/" },
+            { name: "EMMC Programming", link: "/institute" },
+            { name: "Face ID & Fingerprint Repair Workshop", link: "/institute" },
+            { name: "Screen Savior: Broken Glass Replacement ", link: "/institute" },
+            { name: "iPhone Specialist Training", link: "/institute" },
+            { name: "Double Decker CPU Repair", link: "/institute" },
+            { name: "and many more.....", link:"./courses.pdf" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "About us", link: "/institute" },
+            { name: "FAQs", link: "/faq" },
+        
         ],
     },
     {
@@ -122,9 +120,9 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo" , link:"https://www.facebook.com/profile.php?id=100093593441776"},
+    { src: twitter, alt: "twitter logo" , link:""} ,
+    { src: instagram, alt: "instagram logo", link:"https://www.instagram.com/trendsetthreads/" },
 ];
 
 export const data=[

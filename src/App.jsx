@@ -12,6 +12,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import CustomerReviews from "./sections/Custreviwe";
 import Mobileservices from "./sections/Mobileservices";
 import Aboutservices from "./sections/about";
+import FAQ from "./sections/FAQ";
 
 export default function App() {
   return (
@@ -53,6 +54,7 @@ export default function App() {
 
         <Route path="institute" element={<Institute />} />
         <Route path="mobileservices" element={<Mobileservices />} />
+        <Route path="faq" element={<Mobileservices />} />
       </Routes>
     </BrowserRouter>
   );
