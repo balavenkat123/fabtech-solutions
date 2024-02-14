@@ -6,6 +6,7 @@ import Footer1 from "./Footer1";
 import Ourclients from "./Ourclients";
 import TableM from "./Table";
 import Aboutservices from "./about";
+import FAQ from "./FAQ";
 
 
 const Mobileservices = () => {
@@ -23,7 +24,7 @@ const Mobileservices = () => {
      
       
   
-      <div><br /><br />
+      <div>
         <div
           id="products"
           className="max-container max-sm:mt-12 flex flex-col justify-start gap-5 mx-5"
@@ -35,7 +36,7 @@ const Mobileservices = () => {
             Here are some Mobile services which can be provided
           </p>
         </div>
-        <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-14 sm:items-center justify-center text-red-700">
+        <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 sm:gap-4 gap-14 sm:items-center justify-center">
           {repairs.map((product) => (
             <ProductCard key={product.name} {...product} />
           ))}
@@ -47,13 +48,13 @@ const Mobileservices = () => {
       <div className="py-8"> 
       <Aboutservices/></div>
     
-      <h2 className="flex justify-center sm:text-6xl text-4xl font-bold py-8">
-        <span className="text-red-700">Brands </span>&nbsp; We Support
+      <h2 className="flex justify-center sm:text-4xl text-4xl font-bold py-8">
+        <span className="text-red-700">Brands </span>&nbsp;We Support
       </h2>
-      <br />
-      <br />
       
       <Ourclients/>
+      <div className="flex justify-center text-4xl font-bold">FAQ's  for&nbsp; <span className="text-red-700">FABTECH</span></div>
+      <FAQ/>
       <div className="bg-black text-white">
         <Footer1 />
       </div>
