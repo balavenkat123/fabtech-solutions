@@ -15,9 +15,9 @@ function Institute() {
     {
       url: "https://i.ytimg.com/vi/L3RJP2uEkw0/maxresdefault.jpg",
     },
-    // {
-    //   url: "https://yt3.googleusercontent.com/Wx4s3RHCcRBHEV35AVbc6XSF4b5Zs9Ak1l9uM-Vi3VoxZ_Vv4hRRSU6Qb-TLn9vkCOsXNJcacQ=s900-c-k-c0x00ffffff-no-rj",
-    // },
+    {
+      url : "",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -44,13 +44,13 @@ function Institute() {
       <Nav1 />
       <div
         id="institute"
-        className="max-w-[1400px] h-[780px] py-0 relative group mx-auto "
+        className="max-w-[1400px]  h-[780px] py-0 relative group mx-auto "
       >
         {/* <h1 className="font-bold "> Page 2</h1> */}
         
         <br />
         <div
-          // style={{ backgroundImage: url(${slides[currentIndex].url}) }}
+          // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full  bg-center bg-cover duration-500"
         >
         <img 
